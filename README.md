@@ -7,10 +7,6 @@
 
 ---
 
-![Image]( http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-networks-cloudfront_1dddddwe )
-
----
-
 ## Introducing Today's Project!
 
 website delivery with cloud front.
