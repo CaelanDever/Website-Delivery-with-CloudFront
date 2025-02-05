@@ -1,5 +1,3 @@
-# Website-Delivery-with-CloudFront
-
 # Website Delivery with CloudFront
 
 **Author:** Caelan Dever  
