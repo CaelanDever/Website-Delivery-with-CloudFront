@@ -35,9 +35,10 @@ The three files that make up my website are index.html, which is the main file f
 
 I validated that my website files work by opening them in google chrome and seeing the webpage. 
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-networks-cloudfront_qgo7wcd3)
+<img width="685" alt="fwa" src="https://github.com/user-attachments/assets/2d3cb8e6-d3a9-452e-b052-91ec2bcf36a0" />
 
 ---
+
 
 ## Exploring Amazon CloudFront
 
@@ -47,7 +48,7 @@ To use Amazon CloudFront, you set up distributions, which are a set of instructi
 
 My CloudFront distribution's default root object is index.html. This means it is the file that CloudFront should serve when someone visits the root URL of your website.
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-networks-cloudfront_qgo7wcdt)
+<img width="612" alt="dsad" src="https://github.com/user-attachments/assets/78966ce8-b81b-4ee0-9c66-a87691c46af4" />
 
 ---
 
@@ -59,7 +60,8 @@ My distribution's origin access settings were public. This caused the access den
 
 To resolve the error, I set up origin access control (OAC). OAC lets you keep your S3 bucket and objects not publicly accessible, while still making sure they can be accessed through CloudFront.
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-networks-cloudfront_egrhntyu)
+
+<img width="598" alt="412" src="https://github.com/user-attachments/assets/97637696-fd81-4915-831b-b4f6fa8d96bc" />
 
 ---
 
@@ -69,9 +71,9 @@ Once I set up my OAC, I still needed to update my bucket policy because the OAC'
 
 Creating an OAC automatically gives me a policy I could copy, which grants permissions to the s3 bucket.
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-networks-cloudfront_eg98ntyu)
 
----
+---<img width="728" alt="bkpls" src="https://github.com/user-attachments/assets/e3ff33a8-e445-4c02-9364-9a72984eee3d" />
+
 
 ## S3 vs CloudFront for Hosting
 
@@ -93,8 +95,9 @@ A business would prefer CloudFront especially for users located far from your S3
 
  S3 static website hosting might be sufficient when hosting serves files directly from a single region.
 
-![Image](http://learn.nextwork.org/happy_amber_shy_newt/uploads/aws-networks-cloudfront_12verpuh)
 
----
+
+---<img width="412" alt="csac" src="https://github.com/user-attachments/assets/7ff50f56-2967-41a0-88a5-1b2204019383" />
+
 
 ---
